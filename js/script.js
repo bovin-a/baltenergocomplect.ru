@@ -46,10 +46,6 @@ $(document).ready(function(){
 		map.addOverlay(placemark); 
 	}
 	
-	if ($('#search_form').length) {
-		$('#search_form input').inputfocus({ value:'Введите название кабеля'});
-	}
-	
 	if ($('#online-order').length) {
 		$('#online-order input[name=mark]').inputfocus({ value:'Марка кабеля'});
 		$('#online-order input[name=amount]').inputfocus({ value:'Количество в метрах'});
