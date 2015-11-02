@@ -36,13 +36,6 @@
 			
 			<div class="nav_separator <?php if (($menu_item == 4) || ($menu_item == 5)) echo 'nav_separator_current'; ?>"></div>
 			
-			<li class="powersupplywrap">
-				<div>
-					<a href="/powersupply.php" class="powersupply">Подключение<br/>электроснабжения</a>
-					<div class="powersupplyman <?php if ($menu_item == 100) echo 'man_selected'; ?>"></div>
-				</div>
-			</li>
-			
 		</ul>
 		
 		<form id="search_form" action="/search.php">
