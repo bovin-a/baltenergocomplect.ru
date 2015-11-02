@@ -1,0 +1,22 @@
+/*Head pic*/
+#head_pic_wrapper {
+	width:940px;
+	padding:5px;
+	margin-top:20px;
+	background:#f1f1f1;
+	border-radius:5px;
+}
+
+	#head_pic {background:#fff;}
+	#head_pic h2 {position:absolute;top:78px;left:400px;font:24px 'DroidSansBold';color:#222;}
+	
+/*Content*/
+#left {width:450px;}
+#right {width:450px;}
+
+#right .contacts_head {font-weight:bold;color:#424242;margin-bottom:15px;text-decoration:underline;}
+#right .contact_p {color:#525252;margin-bottom:10px;}
+#right .select {font-weight:bold;display:inline-block;width:140px;}
+#right .contact_text {display:inline-block;width:260px;margin-left:40px;}
+
+#map_wrapper {width:436px;height:400px;overflow:hidden;}

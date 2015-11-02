@@ -1,0 +1,53 @@
+/*Content*/
+#left {width:310px;}
+#right {width:590px;}
+
+.about_online {
+	text-align:justify;
+	margin-top:15px;
+}
+
+#attention_wrapper {	
+	position:absolute;
+	right:0; top:332px;
+	width:230px;
+	background:#c3c3c3;
+	padding:5px;
+	border-radius:10px;
+}
+#attention {
+	background:#e0e0e0 url(/images/online-order/attention_icon.png) 14px 13px no-repeat;
+	border-radius:6px;
+	padding:5px;
+}
+.attention_text_first {
+	font-size:11px;
+	line-height:15px;
+	color:#515353;
+	margin:5px 5px 10px;
+	text-align:justify;
+	margin-left:55px;
+}
+.attention_text_second {
+	font-size:11px;
+	line-height:15px;
+	color:#515353;
+	margin:5px 5px 5px 5px;
+	text-align:justify;
+}
+
+#online-order label {display:block; margin-bottom:10px;width:312px;position:relative;}
+#online-order label input {padding:5px;vertical-align:middle;width:300px;color:#666;border:1px solid #999;}
+#online-order label textarea {height:200px;width:300px;padding:5px;resize: none;color:#666;font:12px Arial, Helvetica, sans-serif;border:1px solid #999;}
+#online-order label input:focus,#online-order label textarea:focus{color:#000;}
+
+#online-order .file_select {background:#fff;border:1px solid #999;width:300px;padding:5px;}
+
+#online-order .center {text-align:center;width:300px;margin-top:20px;}
+#online-order input[type="submit"] {display:inline-block; background:#555;height:30px;width:90px;border:1px solid #666;margin-left:20px;font-weight:bold;color:#fff;cursor:pointer;}
+#online-order input[name="submit_order"]:hover {background:#222;}
+#online-order input[name="clear_order"] {background:#fafafa;font-weight:normal;color:#000;}
+#online-order input[name="clear_order"]:hover {background:#aaa;}
+
+#online-order .error {display:none;position:absolute;top:6px;left:330px;width:250px;color:#f00;font-weight:bold;}
+#online-order .order_sended {display:none;font-size:13px;font-weight:bold;padding:0 0 15px 0;}

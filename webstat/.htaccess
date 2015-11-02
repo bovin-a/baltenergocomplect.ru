@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/baltenergocomplect.ru/webstat"
+AuthUserFile /var/www/vh60862/data/etc/6307455.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

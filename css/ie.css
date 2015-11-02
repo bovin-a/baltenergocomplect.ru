@@ -1,0 +1,4 @@
+#slider_wrapper,#head_pic_wrapper,#filter_wrapper, .more_button, .pic_border {behavior:url(/js/PIE.htc);}
+#phone_wrapper {background:url(/images/page/phone_back.png) 0 0 repeat-x;padding-top:7px;}
+#nav_wrapper {width:954px; height:67px;background:url(/images/page/nav_solid_back.png) 0 0 repeat-x;}
+#header_wrapper #nav_wrapper .nav li[class="company currentBlock"], #header_wrapper #nav_wrapper .nav li.company:hover {background:url(/images/page/company_back.png) 0 0 no-repeat;}

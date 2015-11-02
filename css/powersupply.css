@@ -1,0 +1,60 @@
+/*Head pic*/
+#head_pic_wrapper {
+	width:270px;
+	padding:5px;
+	background:#f1f1f1;
+	border-radius:5px;
+	margin-bottom:30px;
+}
+
+	#head_pic {background:#fff;overflow:hidden;}
+	
+/*Content*/
+#content_wrapper {margin-top:30px;}
+#left {width:280px;}
+#right {width:620px;}
+
+#right a { color:#427cff; }
+#right a:active { color:#ff4b4b; }
+#right a:visited { color:#133a93; }
+
+.title
+{
+	padding:15px 0 10px;
+}
+
+.banner
+{
+	text-align:center;
+	height:60px;
+	line-height:60px;
+}
+	.banner a
+	{
+		padding:15px;
+		font-size:13px;
+		background:#666;
+		font-weight:bold;
+		color:#fff;
+	}
+	#right .banner a:visited {color:#fff;}
+
+.problem
+{
+	padding:3px 0 3px 15px;
+	color:#222;
+}
+	.problem span
+	{
+		font-size:12px;
+	}
+
+.problem_list
+{
+	padding:0 0 10px 45px;
+	list-style:square;
+}
+	.problem_list li
+	{
+		padding: 
+	}

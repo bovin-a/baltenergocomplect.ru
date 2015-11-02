@@ -1,0 +1,111 @@
+/*Head pic*/
+#head_pic_wrapper {
+	width:300px;
+	padding:5px;
+	background:#f1f1f1;
+	border-radius:5px;
+	margin-bottom:30px;
+}
+	#head_pic {background:#fff;overflow:hidden;}
+
+/*Content*/
+#content_wrapper {margin-top:20px;}
+#left {width:310px;}
+#right {width:590px;}
+
+#left .how_buy
+{
+	text-align:justify;
+	margin-top:15px;
+}
+#left .online-order
+{
+	color:#323232;
+}
+
+#right .product_head
+{
+	font-weight:bold;
+	font-size:26px;
+	margin:10px 0 40px;
+	color:#111;
+}
+
+#right .unit
+{
+	font-style  : italic;
+	font-weight : bold;
+}
+#right .text_head
+{
+	font-weight:bold;
+	margin:25px 0 10px;
+	font-size:14px;
+	text-transform:uppercase;
+	color:#222;
+}
+#right .product_text
+{
+	text-align:left;
+	color:#222;
+	margin-bottom:4px;
+}
+#right .construction_text
+{
+	text-align:left;
+	color:#222;
+}
+
+#right .list
+{
+	margin-bottom:4px;
+	list-style:square;
+}
+	#right .list li
+	{
+		margin:0 0 2px 35px;
+	}
+
+#right .text_table
+{
+	margin-bottom   : 15px;
+	border          : 1px solid #222;
+	border-collapse : collapse;
+	font-size		: 11px;
+}
+	#right .text_table td
+	{
+		width   : 400px;
+		padding : 5px 10px;
+		color   : #222;
+		border  : 1px solid #222;
+	}
+	#right .text_table td+td
+	{
+		width      : 150px;
+		text-align : center;
+	}
+	#right .text_table .narrow
+	{
+		width : 50px;
+	}
+	#right .text_table .margin
+	{
+		padding-left : 20px;
+	}
+
+#right .download_doc
+{
+	display      : block;
+	height       : 32px;
+	width        : 100%;
+	line-height  : 34px;
+	padding-left : 43px;
+	color        : #323232;
+	margin-top   : 20px;
+	background   : url(/images/product/download.png) 0 0 no-repeat;
+}
+#right .top15
+{
+	margin-top:15px;
+}

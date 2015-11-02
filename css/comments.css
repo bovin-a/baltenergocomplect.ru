@@ -1,0 +1,31 @@
+/*Head pic*/
+#head_pic_wrapper {
+	width:940px;
+	padding:5px;
+	margin-top:20px;
+	background:#f1f1f1;
+	border-radius:5px;
+}
+
+	#head_pic {background:#fff;overflow:hidden;}
+	#head_pic img {float:right;}
+	#head_pic h2 {position:absolute;top:80px;left:70px;font:24px 'DroidSansBold';color:#222;text-align:right;}
+	
+/*Content*/
+#left {width:310px;}
+#right {width:590px;}
+
+#left .cooperation_text {text-align:justify;margin-top:15px;}
+
+#right .comment_wrapper {
+	overflow:hidden;
+	margin-bottom:40px;
+}
+#right .dark_pic_border {
+	background:#626262;
+	padding:5px;
+	float:right;
+}
+.comment_wrapper h2 {font-weight:bold;font-size:14px;}
+.comment_wrapper .comment_text {text-align:justify; margin:15px 165px 15px 20px;}
+.comment_wrapper .author {font-style:italic;}

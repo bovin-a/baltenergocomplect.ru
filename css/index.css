@@ -1,0 +1,54 @@
+/*Slider*/
+#slider_wrapper {
+	width:950px; height:420px;
+	margin-top:20px;
+	background:#f1f1f1;
+	border-radius:5px;
+}
+	#slider {
+		padding:5px;
+	}
+
+/*Content*/
+#left {width:220px;}
+#right {width:680px;}
+
+.lef_text {
+	margin-top:15px;
+	text-align:justify;
+}
+.lef_text a {color:#323232;text-decoration:none;border-bottom:1px dashed #323232;}
+.right_text {
+	text-align:justify;
+	margin-bottom:15px;
+}
+
+/* SLIDER STYLE */
+.slide_wrapper {width:940px;height:410px;overflow:hidden;}
+
+.slide {position:absolute;width:940px;height:410px;}
+
+.slide_wrapper .first_head {position:absolute;top:115px;font:32px 'DroidSansBold';left:503px;}
+.slide_wrapper .first_text {position:absolute;top:180px;font-size:14px;width:367px;text-align:justify;left:507px;}
+
+.slide_wrapper .second_head {position:absolute;top:145px;font:26px 'DroidSansBold';left:68px;}
+.slide_wrapper .second_text {position:absolute;top:210px;font-size:14px;width:367px;text-align:justify;left:68px;}
+
+.slide_wrapper .third_head {position:absolute;top:215px;font:26px 'DroidSansBold';left:503px;}
+.slide_wrapper .third_text {position:absolute;top:300px;font-size:14px;width:367px;text-align:justify;left:503px;}
+
+.slide_wrapper .next, .slide_wrapper .prev {
+	display:block;
+	position:absolute;
+	width:26px;height:45px;
+	top:183px;
+	background:url(/images/slider/nav_arrows.png) 0 -3px no-repeat;
+	z-index:1;
+}
+.slide_wrapper .next {right:0;background-position:-26px -3px;}
+.slide_wrapper .prev {left:0;}
+
+.slide_wrapper .next:hover {background-position:-26px -54px;} 
+.slide_wrapper .prev:hover {background-position:0 -54px;}
+
+.marginbottom7 {margin-bottom:7px;}

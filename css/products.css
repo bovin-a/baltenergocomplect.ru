@@ -1,0 +1,116 @@
+/*Head pic*/
+#head_pic_wrapper {
+	width:300px;
+	padding:5px;
+	background:#f1f1f1;
+	border-radius:5px;
+	margin-bottom:30px;
+}
+
+	#head_pic {background:#fff;overflow:hidden;}
+	
+/*Content*/
+#content_wrapper {margin-top:20px;}
+#left {width:310px;}
+#right {width:590px;}
+
+.products_text {
+	text-align:justify;
+	margin-top:15px;
+}
+.products_text span {font-style:italic;}
+.products_text a {color:#323232;}
+.type{text-align:left;}
+
+#filter_wrapper {
+	padding:15px 15px 10px;
+	background:#f1f1f1;
+	border-radius:5px;
+	margin-bottom:30px;
+}
+	#filter_wrapper  .part_head {
+		margin-left:10px;
+		padding-bottom:10px;
+		border-bottom:1px solid #e1e1e1;
+	}
+
+.product_wrapper {
+	overflow:hidden;
+	width:290px;
+	margin-bottom:20px;
+	float:left;
+}
+.product_info {margin: 0 0 5px 130px;}
+.product_info .select {font-weight:bold;}
+
+.dark_pic_border {background:#626262;padding:5px;float:left;border-radius:5px;}
+
+.more_button {
+	display:block;
+	position:absolute;
+	bottom:4px; left:130px;
+	height:25px;width:90px;
+	background:#f9f9f9;
+	border-radius:5px;
+	box-shadow:1px 1px 5px #aaa;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5px;
+	text-decoration:none;
+	color:#424242;
+}
+.more_button:hover {background:#e3e3e3;}
+
+#product_sections_list
+{
+	display       : block;
+	font-size     : 12px ;
+	width         : 275px;
+	margin-top    : 10px ;
+	border-right  : 1px solid #e1e1e1;
+	padding-right : 9px  ;
+}
+	#product_sections_list li
+	{
+		margin-bottom : 2px;
+	}	
+	#product_sections_list li a
+	{
+		display      : block;
+		width        : 265px;
+		height       : 26px ;
+		line-height  : 27px ;
+		padding-left : 10px ;
+		color        : #323232;
+		cursor       : pointer;
+		text-decoration : none;
+	}
+	#product_sections_list li a:hover     {background:#d5d5d5;}
+	#product_sections_list li a.current {background:#b1b1b1;}
+
+#product_sub_section_list {
+	display:block;
+	position:absolute;
+	top:60px;left:310px;
+	width:265px;
+}
+	#product_sub_section_list li
+	{
+		margin-bottom : 2px;
+	}
+	#product_sub_section_list li  a
+	{
+		display      : block;
+		width        : 255px;
+		height       : 26px ;
+		line-height  : 27px ;
+		padding-left : 10px ;
+		color        : #323232;
+		cursor       : pointer;
+		text-decoration : none;
+	}
+	#product_sub_section_list li a:hover     {background:#d5d5d5;}
+	#product_sub_section_list li a.current {background:#b1b1b1;}
+.sub_section_wrapper {display:none;}
+
+#selected_product_list .product_pic {width:104px;height:76px;border-radius:2px;z-index:10;}
