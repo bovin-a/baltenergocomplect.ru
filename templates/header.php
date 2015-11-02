@@ -39,7 +39,7 @@
 		</ul>
 		
 		<form id="search_form" action="/search.php">
-			<input type="text" name="cable" value="<?php if (isset($_GET['cable']) && ($_GET['cable'] != '')) echo $_GET['cable']; else echo 'Введите название продукции'; ?>">
+			<input type="text" name="cable" placeholder="Введите название продукции" value="<?php if (isset($_GET['cable']) && ($_GET['cable'] != '')) echo $_GET['cable']; ?>">
 		</form>
 	</div>
 </div>
