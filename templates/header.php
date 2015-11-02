@@ -6,6 +6,7 @@
 	</div>
 	<!-- Logo -->
 	<div id="logo_wrapper">
+		<a href="/"><img src="/images/page/logo.png" alt="" /></a>
 		<a class="logo" href="/">БалтЭнергоКомплект</a>
 		<span class="logo_text">кабельно-проводниковая продукция</span>
 	</div>

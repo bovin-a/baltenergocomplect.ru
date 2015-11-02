@@ -75,14 +75,13 @@ a{cursor:pointer;}
 		position:absolute;
 		width:900px; height:78px;
 		left:0; top:54px;
-		background:url(/images/page/logo.png) 0 0 no-repeat;
 	}
 		#logo_wrapper .logo {
 			display:inline-block;
 			height:43px;width:432px;
 			background:url(/images/page/logo_pic.png) 0 0 no-repeat;
 			text-indent:-2000px;
-			margin: 24px 0 0 97px;
+			margin: 24px 0 0 10px;
 		}
 		#logo_wrapper .logo_text {
 			display:inline-block;
